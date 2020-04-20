@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aqua;
+}
+
+.top_navigation{
+    display: flex;
+    border: 2px solid red;
+    background-color: aliceblue;
+    overflow: hidden;
+    color: white;
+}
+
+.top_navigation a{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+}
+
+.top_navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.profile{
+    border: 2px solid orange;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.photo{
+    border-radius: 50%;
+    border: 2px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.personal_data{
+    border: 2px solid green;
+    position: absolute;
+    right: 20px;
+}
+
+.edit_profile{
+    border: 2px solid blue;
+}
+
+.followers{
+    border: 2px solid purple;
+}
