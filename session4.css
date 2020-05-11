@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    color: black;
+}
+
+@media(max-width:768px){
+    body{
+        background-color: wheat;
+    }
+    h1{
+        color: darkgoldenrod;
+    }
+}
+
+@media(max-width:450px){
+    body{
+        background-color: greenyellow;
+    }
+    h1{
+        color: purple;
+    }
+}
+
+div{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+}
+
+div:hover{
+    background-color: aquamarine;
+}
+
+div:active{
+    background-color: darkblue;
+    margin-left: 100px;
+    transition: all 1s ease-in-out;
+}

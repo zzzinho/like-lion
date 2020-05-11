@@ -5,13 +5,16 @@
 ## 스터디 로그
 ### [OT 2020.04.06]
 - vscode, git 설치
-### [Session1 2020.04.09]
+### [Course1 2020.04.09]
 - mock-up
-### [Session2 2020.04.13]
+### [Course2 2020.04.13]
 - mock-up
 - html
-### [Session3 2020.04.16] 
+### [Course3 2020.04.16] 
 - html & css
 - 인스타그램 클론 코딩
-### [Session4 2020.04.20] 
+### [Course4 2020.04.20] 
 - git & github
+- CSS
+### [Course6 2020.05.11]
+- Django 첫날
