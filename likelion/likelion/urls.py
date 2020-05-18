@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from helloworld.views import home
+from helloworld.views import close_finder
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home, name='home'),
+    path('closefinder/', close_finder, name='close_finder'),
 ]

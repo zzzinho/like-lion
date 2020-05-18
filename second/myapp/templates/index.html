@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: darkolivegreen;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>글자수 계산기</h1>
+    <form>
+        <textarea name="target" id="" cols="60" rows="10"></textarea>
+        <br>
+        <input type="submit" value="count word size">
+    </form>
+    <h5>결과 : {{display_value}}</h5>
+
+    <h2>model data</h2>
+    <p>{{myobject}}</p>
+
+    {% for i in myobject %}
+        <div>제목: {{i.title}} |||| {{i.created}}</div>
+    {% endfor %}
+
+</body>
+</html>

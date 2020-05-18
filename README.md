@@ -18,3 +18,6 @@
 - CSS
 ### [Course6 2020.05.11]
 - Django 첫날
+### [Course7 2020.05.14]
+- view 맛보기
+- model 맛보기
