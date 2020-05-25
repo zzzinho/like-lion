@@ -1,0 +1,35 @@
+{% load static %}
+
+<html lang="kor">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <title>Jasoseol</title>
+</head>
+<body>
+    <div class="container">
+        <div class="make_jss">
+            <a href="{% url 'create' %}">
+                <div class="btn_plus"">
+                    +
+                </div>
+            </a>
+            <h3>자기소개서 작성하기</h3>
+        </div>
+        <br>
+        {{jss_obj}}
+        {% for jss in jss_obj %}
+        <a href="{% url 'detail' jss_id %}">
+        <div class="my_jss">
+                <div class="obj_header">
+                    <div class="obj_id">{{jss.id}}</div>
+                    <div class="title">{{jss.title}}</div>
+                </div>
+                <div class="content">{{jss.body}}</div>
+                <div class="content_date">{{jss.created_at}}</div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

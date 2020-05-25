@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    title: {{ my_jss.title }}
+    <br>
+    body: {{ my_jss.body }}
+    <br>
+    created_at: {{ my_jss.created_at }}
+    <a href="{% url 'delete' my_jss.id %}">
+        <button>delete</button>
+    </a>
+
+    <a href="{% url 'update' my_jss.id %}">
+        <button>edit</button>
+    </a>
+</body>
+</html>
